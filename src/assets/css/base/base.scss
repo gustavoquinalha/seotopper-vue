@@ -2,3 +2,53 @@
   margin: 0;
   padding: 0
 }
+body,
+html {
+  height: 100%
+}
+.size {
+  width: 1140px;
+  max-width: 90%
+}
+.margin {
+  margin: 0 auto
+}
+.float-left {
+  float: left
+}
+.float-right {
+  float: right
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.width-full {
+  width: 100%
+}
+.height-full {
+  min-height: 100%
+}
+.mg10 {
+  margin: 10px
+}
+.mg20 {
+  margin: 20px
+}
+.mg30 {
+  margin: 30px
+}
+.pd10 {
+  padding: 10px
+}
+.pd20 {
+  padding: 20px
+}
+.pd30 {
+  padding: 30px
+}
