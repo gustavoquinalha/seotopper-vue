@@ -4,10 +4,11 @@
 }
 body,
 html {
-  height: 100%
+  height: 100%;
+  background: #EBEBEB
 }
 .size {
-  width: 1140px;
+  width: 1000px;
   max-width: 90%
 }
 .margin {
@@ -20,13 +21,13 @@ html {
   float: right
 }
 .text-left {
-  text-align: left;
+  text-align: left
 }
 .text-center {
-  text-align: center;
+  text-align: center
 }
 .text-right {
-  text-align: right;
+  text-align: right
 }
 .width-full {
   width: 100%
@@ -51,4 +52,27 @@ html {
 }
 .pd30 {
   padding: 30px
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+pre {
+    color: #55cc66;
+    background: #001800!important;
+    width: calc(100% - 20px);
+    overflow: auto;
+    overflow-y: hidden;
+    text-align: left;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.ff {
+  color: #865700;
+}
+.resul {
+  color: #cc5555;
 }
