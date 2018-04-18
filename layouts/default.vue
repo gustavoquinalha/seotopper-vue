@@ -2,7 +2,7 @@
 <div>
 
   <header>
-    <div class="header container align-center">
+    <div class="header container align-items-end justify-content-center">
       <div class="intro">
         <img src="~/assets/images/logo.svg" alt="" />
         <code>
@@ -16,36 +16,29 @@
     </div>
   </header>
 
+  <div class="seotopper"></div>
+
   <nuxt/>
+
+  <footerSeo/>
 
 </div>
 </template>
 
 <script>
-export default {}
+import footerSeo from '@/components/footer';
+export default {
+  components: {
+    footerSeo
+  }
+}
 </script>
 
 <style lang="scss">
 .header {
-    height: 90vh;
+    min-height: 50vh;
     width: 100%;
-    background: #396afc;
-    background: url(~/assets/images/bg.svg), linear-gradient(120deg, #396afc, #2575fc);
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    background-size: 70%, 100%;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-duration: 8s;
-    animation-timing-function: linear;
-    @keyframes teste {
-        from {
-            background-position: bottom right;
-        }
-        to {
-            background-position: bottom left;
-        }
-    }
+    background: $color-primary;
     .intro {
         width: 500px;
         max-width: 90%;
@@ -58,5 +51,12 @@ export default {}
     pre {
         text-align: left;
     }
+}
+.seotopper {
+    background: url("~/assets/images/bg.svg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    min-height: 50vh;
 }
 </style>

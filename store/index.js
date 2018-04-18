@@ -6,6 +6,10 @@ Vue.use(Vuex)
 const createStore = () => {
   return new Vuex.Store({
     state: {
+      configs: {
+        showResult: false,
+        loading: false
+      },
       seo: {
         title: '',
         description: '',
@@ -37,6 +41,9 @@ const createStore = () => {
       }]
     },
     mutations: {
+      showResult (state) {
+        this.state.configs.showResult = true
+      }
     }
   })
 }

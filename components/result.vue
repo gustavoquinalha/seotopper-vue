@@ -2,7 +2,7 @@
 <div class="">
   <div class="content margin-bottom-50">
     <div class="esp">
-      <pre>
+<pre>
 &lt;title&gt;{{seo.title}}&lt;/title&gt;
 &lt;meta name=&quot;description&quot; content=&quot;{{seo.description}}&quot;/&gt;
 &lt;meta name=&quot;author&quot; content=&quot;{{seo.author}}&quot;/&gt;
@@ -11,7 +11,7 @@
 &lt;link rel=&quot;base&quot; href=&quot;{{seo.base}}&quot;/&gt;
 &lt;meta rel=&quot;sitemap&quot; type=&quot;application/xml&quot; content=&quot;{{seo.sitemap}}&quot;/&gt;
 &lt;meta name=&quot;theme-color&quot; content=&quot;{{seo.themecolor}}&quot;/&gt;
-         </pre>
+</pre>
     </div>
   </div>
 </div>
