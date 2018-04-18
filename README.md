@@ -1,21 +1,30 @@
-# vue-webpack
+# seotopper
+> A tool for preview changes and test on multiple devices instantly.
 
-> A Vue.js project
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6b0b1d9931b54436a6adad092d01f66f)](https://app.codacy.com/app/gustavoquinalha/seotopper?utm_source=github.com&utm_medium=referral&utm_content=gustavoquinalha/seotopper&utm_campaign=badger)
+
+![seotopper](https://media.giphy.com/media/g0pgDzeuJKOfy6ei2O/giphy.gif)
+
+For localhost url use http://127.0.0.1:3000/
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+$ npm install # Or yarn install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with hot reload at localhost:3000/seotopper
+$ npm run dev
 
-# build for production with minification
-npm run build
+# build for production and launch server
+$ npm run build
+$ npm start
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# generate static project
+$ npm run generate
+
+# deploy static project
+$ npm run deploy
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
