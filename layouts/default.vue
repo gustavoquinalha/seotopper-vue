@@ -2,21 +2,18 @@
 <div>
 
   <header>
-    <div class="header container align-items-end justify-content-center">
+    <div class="header container align-center">
       <div class="intro">
         <img src="~/assets/images/logo.svg" alt="" />
-        <code>
-          <pre>
+        <code><pre>
 &lt;title&gt;T&iacute;tulo da minha p&aacute;gina&lt;/title&gt;
 &lt;meta name=&quot;description&quot; content=&quot;Descri&ccedil;&atilde;o da minha p&aacute;gina&quot;/&gt;
-&lt;meta name=&quot;author&quot; content=&quot;Eu&quot;/&gt;
-           </pre>
-        </code>
+&lt;meta name=&quot;author&quot; content=&quot;Eu&quot;/&gt;</pre></code>
       </div>
     </div>
   </header>
 
-  <div class="seotopper"></div>
+  <!-- <div class="seotopper"></div> -->
 
   <nuxt/>
 
@@ -39,6 +36,9 @@ export default {
     min-height: 50vh;
     width: 100%;
     background: $color-primary;
+    // background: url("~/assets/images/bg.svg"), $color-primary;
+    // background-position: top bottom;
+    // background-size: contain 100%;
     .intro {
         width: 500px;
         max-width: 90%;

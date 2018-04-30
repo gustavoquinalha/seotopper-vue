@@ -16,8 +16,8 @@ export default {}
 
 <style lang="scss" scoped>
 .footer {
-    background: $color-secundary;
-    color: $color-dark;
+    background: darken($color-primary, 10);
+    color: $color-white;
     margin-top: 50px;
     font-size: 16px;
     .size {
